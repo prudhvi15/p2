@@ -1,0 +1,79 @@
+body{
+    padding-top: 5rem;
+}
+body, html{
+    height: 100%;
+}
+.video-wrapper {
+    width: 100%;
+    background-color: lightblue;
+  }
+
+section {
+    margin: 2rem;
+    padding: 3rem;
+    background-color: indianred;
+    border-radius: 2em;
+  }
+.bgimg{
+    background-image: url("uni.jpg");
+    height: 100%;
+    position: relative;
+    opacity: 0.85;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; /* fixed in viewport */
+}
+footer{
+    color: white;
+    
+}
+#a{
+    padding-top: 20rem;
+}
+#b{
+    padding-top: 30rem;
+}
+h1{
+    color:black;
+}
+h2{
+    color:black;
+}
+#k{
+    color:black;
+}
+aside a{
+     color:black;
+    font-size: 30px;
+}
+form{
+    padding-left: 28rem;
+    
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+    margin:5px 2px;
+    border-radius: 50%;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-linkedin{
+      background: #3B5998;
+      color:white;
+  }
+  .fa-github{
+      background: white;
+      color: black;
+  }
+  .fa:hover {
+    opacity: 1.5;
+    color:black;
+}
