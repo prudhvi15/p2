@@ -12,8 +12,11 @@ body, html{
 section {
     margin: 2rem;
     padding: 3rem;
-    background-color: indianred;
+    background-color: lightblue;
     border-radius: 2em;
+    opacity: 0.75;
+    font-weight:bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 .bgimg{
     background-image: url("uni.jpg");
@@ -41,17 +44,21 @@ h1{
 h2{
     color:black;
 }
-#k{
+#heading2{
     color:black;
 }
 aside a{
      color:black;
     font-size: 30px;
 }
-form{
-    padding-left: 28rem;
+.name{
+    padding-left: 10rem;
+    background-color: lightblue;
+    background-size: 2em;
+    border-radius: 2em;
     
 }
+
 .fa {
     padding: 20px;
     font-size: 30px;
